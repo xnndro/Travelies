@@ -1,0 +1,389 @@
+.rent-details-container
+{
+    width: 100%;
+    height: 1700px;
+    /* background-color: red; */
+    /* overflow: hidden; */
+}
+
+.rent-details-product
+{
+    width: 100%;
+    height: 34.72vw;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content:space-between;
+}
+
+.rent-product-image
+{
+    width: 45%;
+    height: 34.72vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.rent-product-image img
+{
+    width: 80%;
+    height: 80%;
+}
+
+.rent-product-details
+{
+    width: 55%;
+    height: 34.72vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.product-details-box
+{
+    width: 90%;
+    height: 290px;
+    /* background-color: blue; */
+}
+
+.rent-product-ratings
+{
+    width: 100%;
+    height: 2.08vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+}
+
+.details-ratings-box
+{
+    width: 25%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+
+.rent-ratings-box
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: orange; */
+    margin-right: 5px;
+}
+
+.rent-ratings-box img
+{
+    width: 90%;
+    height: 70%;
+}
+
+.reviews-total
+{
+    width: 75%;
+    height:auto;
+    /* background-color:antiquewhite; */
+    display: flex;
+    align-items: center;
+}
+
+
+.reviews-total p
+{
+    font-size:0.764vw;
+    font-weight: 500;
+    color: #A7A7A7;
+}
+
+.rent-details-price
+{
+    width: 100%;
+    height: 2.08vw;
+    margin-top: -5px;
+    /* background-color: antiquewhite; */
+}
+
+.rent-details-price p span
+{
+    font-size: 1.38vw;
+    font-weight: 700;
+    color: #004EFC;
+}
+
+.rent-details-price p
+{
+    font-size: 0.83vw;
+    font-weight: 500;
+    color: black;
+}
+
+.rent-details-description
+{
+    width: 85%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.rent-details-description p
+{
+    font-size: 0.83vw;
+    font-weight: 400;
+    color: black;
+}
+
+
+.rent-button 
+{
+    width: 40%;
+    height: 2.7vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* flex-direction: column; */
+    background-color: #00C850;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.rent-button a
+{
+    text-decoration: none;
+    color: white;
+    font-size:0.97vw;
+    font-weight:700; 
+}
+
+.rent-review-container
+{
+    width: 100%;
+    height: 41.64vw;
+    /* background-color: red; */
+}
+
+
+.rent-review
+{
+    width: 100%;
+    height: 41.64vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+.review-title
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    /* background-color: antiquewhite; */
+}
+
+.review-lines
+{
+    width: 13.472vw;
+    height: 3.5px;
+    background-color: #3A6FE5;
+    margin-top: -1.0417vw;
+    border-radius: 10px;
+}
+
+.review-content
+{
+    width: 100%;
+    height: 45.5vw;
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    overflow-x: scroll;
+}
+.review-content::-webkit-scrollbar
+{
+    scroll-behavior: smooth;
+}
+
+.review-slider-container    
+{
+    display: flex;
+    flex-direction: row;
+    animation: slide infinite 10s alternate;
+}
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    25%
+    {
+        margin-left: -25%;
+    }
+    50% {
+    margin-left: -50%;
+    }
+    75% {
+        margin-left: -75%;
+    }
+    100% {
+    margin-left: -100%;
+    }
+}
+
+.review-content-box
+{
+    width: 24vw;;
+    height: 29.77vw;
+    display: flex;
+    /* margin-top: 3.472vw; */
+    margin-right: 2.7vw;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px -1px 58px -1.7362vw rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.review-content-box-img
+{
+    width: 100%;
+    height: 13.472vw;
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+.review-content-box-img img
+{
+    width: 35%;
+    height: 65%;
+}
+
+.review-content-box-text
+{
+    width: 100%;
+    height: 6.95vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.review-content-box-text h2
+{
+    font-size: 1.38vw;
+    font-weight: 600;
+    color: black;
+    margin-top: 1px;
+}
+
+.review-content-box-text p{
+    font-size: 1.0417vw;
+    font-weight: 500;
+    color: black;
+    margin-top: -10px;
+}
+
+.review-ratings
+{
+    margin-top: -10px;
+    width: 5.5vw;
+    height: 1.7362vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #3A6FE5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.review-ratings p
+{
+    margin-top:0.83vw;
+    font-size: 0.83vw;
+    font-weight: 700;
+    color: white;
+}
+
+.review-text
+{
+    width: 70%;
+    display: flex;
+    justify-content:center;
+    /* background-color: blue; */
+}
+
+
+.review-text p
+{
+    font-size: 0.83vw;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.similiar-rent-container
+{
+    width: 100%;
+    height: 43.472vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: red; */
+}
+
+.similiar-title
+{
+    width: 100%;
+    height: 6.95vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    /* background-color: antiquewhite; */
+}
+
+.similiar-lines
+{
+    width: 17.36vw;
+    height: 3.5px;
+    background-color: #3A6FE5;
+    margin-top: -1.0417vw;
+    border-radius: 10px;
+}
+
+.rent-similiar-content
+{
+    width: 100%;
+    height: 460px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.choose-rent a
+{
+    text-decoration: none;
+    color: white;
+    font-size:0.97vw;
+    font-weight:700; 
+}

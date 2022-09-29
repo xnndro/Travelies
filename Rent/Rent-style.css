@@ -1,0 +1,104 @@
+.slicing-container
+{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.slicing-menu
+{
+    width: 30%;
+    height: 6.95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+#Hikingmenu
+{
+    cursor: pointer;
+    width: 90px;
+    height: 2.08vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3A6FE5;
+    border-radius: 45px;
+    background-color: #3A6FE5;
+    color: white;
+    font-weight: 600;
+}
+
+#Campingmenu
+{
+    cursor: pointer;
+    width: 90px;
+    height: 2.08vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3A6FE5;
+    border-radius: 45px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+#Fishingmenu
+{
+    cursor: pointer;
+    width: 90px;
+    height: 2.08vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3A6FE5;
+    border-radius: 45px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+.rent-container-page
+{
+    width: 100%;
+    height: 68.472vw;
+    display: flex;
+    /* justify-content:center; */
+    align-items:center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+}
+
+.rent-content-page
+{
+    width: 100%;
+    height: 45.5vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-box-page
+{
+    width:23.08vw;
+    margin-bottom: 3.472vw;
+    height: 30.83vw;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:22px;
+    box-shadow: 0px -1px 58px -1.7362vw rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: .4s;
+}

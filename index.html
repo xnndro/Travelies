@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Travelies</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <div class="navbar-box">
+                <div class="brand">
+                    <h1 class="brand-name">Travelies</h1>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="Start/Adventure.html">Start Adventure</a></li>
+                        <li><a href="Rent/Rent.html">Rent</a></li>
+                        <li><a href="Contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="join">
+                    <div class="join-btn">
+                        <div class="join-btn-dropdown">
+                            <div class="join-text">
+                                <p>Join Us</p>
+                            </div>
+                            <div class="join-icon">
+                                <img src="Assets/img/icon/dropdown.png" alt="">
+                            </div> 
+                        </div>
+                        <div class="join-dropdown">
+                            <div class="join-dropdown-item">
+                                <a href="Join/Login.html">Login</a>
+                            </div>
+                            <div class="join-dropdown-item">
+                                <a href="Join/Register.html">Signup</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron">
+            <div class="jumbotron-content">
+                <div class="title-box">
+                    <div class="jumbotron-title">
+                        <p>Travel around the world with comfort and pleasure with <b>Travelies</b></p>
+                    </div>
+                    <div class="btn">
+                        <a href="Start/Adventure.html">Start Adventure</a>
+                        <img src="Assets/img/icon/next.png" alt="">
+                    </div>
+                </div>
+                <div class="jumbotron-visit">
+                    <div class="baris">
+                        <div class="visit-box">
+                            <div class="img-icon">
+                                <img src="Assets/img/icon/Fishing.png" alt="">
+                            </div>
+                            <p><b data-target="1000" class="count">0</b> Fishing Activity</p>
+                        </div>
+                        <div class="visit-box">
+                            <div class="img-icon">
+                                <img src="Assets/img/icon/Camping.png" alt="">
+                            </div>
+                            <p><b data-target="1000" class="count">0</b> Camping Activity</p>
+                        </div>
+                    </div>
+                    <div class="baris">
+                        <div class="visit-box">
+                            <div class="img-icon">
+                                <img src="Assets/img/icon/Hiking.png" alt="">
+                            </div>
+                            <p><b data-target="1000" class="count">0</b> Hiking Activity</p>
+                        </div>
+                        <div class="visit-box">
+                            <div class="img-icon">
+                                <img src="Assets/img/icon/Traveler.png" alt="">
+                            </div>
+                            <p><b data-target="1000" class="count">0</b> Total Travelers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video">
+                <video autoplay muted loop>
+                    <source src="Assets/Video/video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>  
+        <!-- Jumbotron end -->
+
+        <!-- Populer Destination -->
+        <div class="destination">
+            <div class="destination-title">
+                <h1>Populer Destination</h1>
+                <div class="lines"></div>
+                <p>You want to fish? Or maybe climbing? Or maybe camping with your family? Calm! <b>Travelies</b> provides a selection of your favorite destinations.</p>
+            </div>
+            <div class="destination-content">
+                <div class="destination-box">
+                    <div class="img-box">
+                        <img src="Assets/img/Destination/Hiking/Semeru.png" alt="">
+                    </div>
+                    <div class="destination-title-box">
+                        <h2>Mount Semeru</h2>
+                        <div class="visited">
+                            <p><b>1000x</b> Visited</p>
+                        </div>
+                        <p class="destination-desc">Mount Semeru is the highest mountain on the island of Java, and arguably the most popular in Indonesia, of course thanks to novels and films "5 cm".</p>
+                        <div class="tags">
+                            <div class="tags-title">
+                                <p>Tags: </p>
+                            </div>
+                            <div class="tags-info" id="Hiking">
+                                <a href="Start/Adventure.html">Hiking</a>
+                            </div>
+                        </div>
+                        <div class="title-info">
+                            <div class="baris-info">
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/location.png" alt="">
+                                    <div class="text-title-info">
+                                        <p>Indonesia</p>
+                                    </div>
+                                </div>
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/time.png" alt="">
+                                    <div class="text-title-info">
+                                        <p>1 Week</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="baris-info">
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/price.png" alt="">
+                                    <div class="text-title-info">
+                                        <p><span>Rp 20.000.000,- </span>/package</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choose-destination">
+                            <a href="Details/Adventure/adventure-details.html?index=0&tag=0" onclick="details(0)">Choose This Destination</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <div class="img-box">
+                        <img src="Assets/img/Destination/Camping/Banff.png" alt="">
+                    </div>
+                    <div class="destination-title-box">
+                        <h2>Banff</h2>
+                        <div class="visited">
+                            <p><b>900x</b> Visited</p>
+                        </div>
+                        <p class="destination-desc">Spreading along the Canadian Rockies, this destination is one of the most scenic National Parks in Canada. There’s something for everyone in this little slice of heaven, with ...</p>
+                        <div class="tags">
+                            <div class="tags-title">
+                                <p>Tags: </p>
+                            </div>
+                            <div class="tags-info" id="Camping">
+                                <a href="Start/Adventure.html">Camping</a>
+                            </div>
+                        </div>
+                        <div class="title-info">
+                            <div class="baris-info">
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/location.png" alt="">
+                                    <div class="text-title-info">
+                                        <p>Canada</p>
+                                    </div>
+                                </div>
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/time.png" alt="">
+                                    <div class="text-title-info">
+                                        <p>1 Week</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="baris-info">
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/price.png" alt="">
+                                    <div class="text-title-info">
+                                        <p><span>Rp 20.000.000,- </span>/package</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choose-destination">
+                            <a href="Details/Adventure/adventure-details.html?index=0&tag=1">Choose This Destination</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-box">
+                    <div class="img-box">
+                        <img src="Assets/img/Destination/Fishing/Bay.png" alt="">
+                    </div>
+                    <div class="destination-title-box">
+                        <h2>Bay Awang</h2>
+                        <div class="visited">
+                            <p><b>950x</b> Visited</p>
+                        </div>
+                        <p class="destination-desc">The majority of the people here live in the fishing profession. Along with the bay of Ekas, Awang bay becomes a favorite destination ...</p>
+                        <div class="tags">
+                            <div class="tags-title">
+                                <p>Tags: </p>
+                            </div>
+                            <div class="tags-info" id="Fishing">
+                                <a href="Start/Adventure.html">Fishing</a>
+                            </div>
+                        </div>
+                        <div class="title-info">
+                            <div class="baris-info">
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/location.png" alt="">
+                                    <div class="text-title-info">
+                                        <p>Indonesia</p>
+                                    </div>
+                                </div>
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/time.png" alt="">
+                                    <div class="text-title-info">
+                                        <p>1 Week</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="baris-info">
+                                <div class="info-box">
+                                    <img src="Assets/img/icon/price.png" alt="">
+                                    <div class="text-title-info">
+                                        <p><span>Rp 20.000.000,- </span>/package</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choose-destination">
+                            <a href="Details/Adventure/adventure-details.html?index=0&tag=2">Choose This Destination</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="another-destination">
+                <div class="another-btn">
+                    <div class="another-text">
+                        <a href="Start/Adventure.html">View All Destination</a>
+                    </div>
+                    <div class="next-icon">
+                        <img src="Assets/img/icon/next.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Populer Destination End -->
+
+        <!-- Rent -->
+        <div class="rent-container">
+            <div class="rent">
+                <h4>Don't Have a gear?</h4>
+                <h2>No Worries!</h2>
+            </div>
+            <div class="rent-title">
+                <div class="title">
+                    <h2>Rent</h2>
+                    <div class="rent-lines"></div>
+                    <p>You want to explore but don't have the equipment? Relax, <b>Travelies</b> provides the best equipment for you to rent at an affordable price</p>
+                </div>
+            </div>
+            <div class="rent-content">
+                <div class="content-box">
+                    <div class="img-rent">
+                        <img src="Assets/img/Rent/Hiking/Sepatu.png" alt="">
+                    </div>
+                    <div class="content-desc">
+                        <div class="rent-price">
+                            <div class="rent-icon">
+                                <img src="Assets/img/icon/price.png" alt="">
+                            </div>
+                            <div class="rent-price-day">
+                                <p><b>Rp. 100.000,- </b>/Day</p>
+                            </div>
+                        </div>
+                        <div class="rent-product">
+                            <h2>Mountain Shoes</h2>
+                        </div>
+                        <div class="item-rating">
+                            <div class="rating-box">
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                            </div>
+                            <div class="rating-info">
+                                <p> (2000 Reviews)</p>
+                            </div>
+                        </div>
+                        <div class="tags-container">
+                            <div class="tags">
+                                <div class="tags-title">
+                                    <p>Tags: </p>
+                                </div>
+                                <div class="tags-info" id="Hiking">
+                                    <a href="">Hiking</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rent-btn">
+                            <div class="choose-destination">
+                                <a href="Details/Rent/rent-details.html?index=0&tag=0">Rent Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="img-rent">
+                        <img src="Assets/img/Rent/Camping/tent.png" alt="">
+                    </div>
+                    <div class="content-desc">
+                        <div class="rent-price">
+                            <div class="rent-icon">
+                                <img src="Assets/img/icon/price.png" alt="">
+                            </div>
+                            <div class="rent-price-day">
+                                <p><b>Rp. 250.000,- </b>/Day</p>
+                            </div>
+                        </div>
+                        <div class="rent-product">
+                            <h2>Tent</h2>
+                        </div>
+                        <div class="item-rating">
+                            <div class="rating-box">
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                            </div>
+                            <div class="rating-info">
+                                <p> (2000 Reviews)</p>
+                            </div>
+                        </div>
+                        <div class="tags-container">
+                            <div class="tags">
+                                <div class="tags-title">
+                                    <p>Tags: </p>
+                                </div>
+                                <div class="tags-info" id="Camping">
+                                    <a href="">Camping</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rent-btn">
+                            <div class="choose-destination">
+                                <a href="Details/Rent/rent-details.html?index=1&tag=1">Rent Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="img-rent">
+                        <img src="Assets/img/Rent/Fishing/rod.png" alt="">
+                    </div>
+                    <div class="content-desc">
+                        <div class="rent-price">
+                            <div class="rent-icon">
+                                <img src="Assets/img/icon/price.png" alt="">
+                            </div>
+                            <div class="rent-price-day">
+                                <p><b>Rp. 50.000,- </b>/Day</p>
+                            </div>
+                        </div>
+                        <div class="rent-product">
+                            <h2>Fishing Rod</h2>
+                        </div>
+                        <div class="item-rating">
+                            <div class="rating-box">
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                                <div class="rating-star">
+                                    <img src="Assets/img/icon/star.png" alt="">
+                                </div>
+                            </div>
+                            <div class="rating-info">
+                                <p> (2000 Reviews)</p>
+                            </div>
+                        </div>
+                        <div class="tags-container">
+                            <div class="tags">
+                                <div class="tags-title">
+                                    <p>Tags: </p>
+                                </div>
+                                <div class="tags-info" id="Fishing">
+                                    <a href="">Fishing</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rent-btn">
+                            <div class="choose-destination">
+                                <a href="Details/Rent/rent-details.html?index=2&tag=2">Rent Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="another-destination">
+                <div class="another-btn">
+                    <div class="another-text">
+                        <a href="Rent/Rent.html">View All Destination</a>
+                    </div>
+                    <div class="next-icon">
+                        <img src="Assets/img/icon/next.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Rent End -->
+
+        <!-- Contact Us -->
+        <div class="contact-container">
+            <div class="contact-content">
+                <div class="contact-icon">
+                    <div class="contact-icon-img">
+                        <img src="Assets/img/icon/mail.png" alt="">
+                    </div>
+                </div>
+                <div class="contact-text">
+                    <div class="text">
+                        <h3>Having a Problems?</h3>
+                        <h2>Don't Worries!</h2>
+                        <p>We avaible for you in 24 hours. Contact Anytime and anytime. Tell Us about your problem</p>
+                    </div>
+                    <div class="contact-btn">
+                        <div class="contact-btn">
+                            <a href="Contactus.html">Contact Us</a>
+                            <img src="Assets/img/icon/next.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Us End -->
+
+    </div>
+    <!-- Footer  -->
+    <div class="footer-container">
+        <div class="footer-text">
+            <p>2022 @<b>Travelies</b> by Alexandro Alvin Valentino. All Rights Reserved</p>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+    <script src="JS/Script.js">
+    </script>
+</body>
+</html>
